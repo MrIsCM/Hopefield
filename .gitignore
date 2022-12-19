@@ -1,2 +1,5 @@
 # Ignore info file
 InfoPDF/ 
+
+# Ignore images folder
+Images/ 
