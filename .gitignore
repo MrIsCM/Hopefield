@@ -6,3 +6,9 @@ Images/
 
 # Ignore plot folder
 Plot/
+
+# Ignore .gitignore file
+.gitignore
+
+# Ignore class file
+classHN.ipynb
