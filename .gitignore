@@ -4,9 +4,6 @@ InfoPDF/
 # Ignore images folder
 Images/ 
 
-# Ignore plot folder
-Plot/
-
 # Ignore .gitignore file
 .gitignore
 
