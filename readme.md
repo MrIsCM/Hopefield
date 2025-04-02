@@ -1,10 +1,12 @@
-# Metropolis Algorithm in a Hopefield Network
+# Hopefield Neural Network
 
-## Introduction
+This project implements a Hopfield Neural Network capable of learning and reconstructing patterns. The network utilizes Hebb’s Learning Law for weight updates and employs the Metropolis Algorithm to optimize state transitions, enhancing its stability and reconstruction accuracy.
 
-Neural network following Hopfield's model.
-Bidemensional matrix formed by $N\times M$ neurons ( $s_{i,j}$ is the neuron in position $(i,j)$ )  with the following carateristics:
+## Key Features:
 
-1.  Neurons are binary. Two possible states: 0, inactive; 1, active.
-2.  The interaction of $s_{i,j}$ with $s_{k,l}$ is defined $w_{(i,j),(k,l)}$ ('Learned' via Hebb's Law of association). Each neuron interacts with every other one except with itself ( $w_{(i,j),(i,j)} = 0$ ). 
-3.  The interaction is symetric: $w_{(i,j),(k,l)} = w_{(k,l),(i,j)}$
+- Stores and retrieves patterns using associative memory
+- Implements Hebbian Learning to encode patterns effectively.
+- Uses the Metropolis Algorithm for probabilistic state updates, improving convergence.
+- Handles noisy or incomplete inputs, reconstructing the closest stored pattern.
+
+This project demonstrates the intersection of neural networks, statistical mechanics, and optimization algorithms, making it ideal for exploring concepts like energy-based models and memory retrieval in AI.
