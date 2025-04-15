@@ -10,3 +10,8 @@ This project implements a Hopfield Neural Network capable of learning and recons
 - Handles noisy or incomplete inputs, reconstructing the closest stored pattern.
 
 This project demonstrates the intersection of neural networks, statistical mechanics, and optimization algorithms, making it ideal for exploring concepts like energy-based models and memory retrieval in AI.
+
+## Development
+
+- Optimization
+- OOP transition
